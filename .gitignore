@@ -1,0 +1,8 @@
+# Oracle SQL temporary files and logs
+*.log
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
