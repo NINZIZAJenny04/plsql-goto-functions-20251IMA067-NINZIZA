@@ -4,4 +4,4 @@
 ## A3_Illegal goto and fix [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/6c77c0e603b6f48660ff561050cecb5fa18b23e9/Screenshot%202026-10-06%20121222.png).
 ## A3_rewrite_no_goto [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/d5472f3f70a0e54668feddb32ee9f3d048f4e7e2/Screenshot%202026-10-06%20130734.png).
 ## B1_fn_annual_salary.sql [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/f041aa44dba8c4aab37ce6255b08476311e80227/Screenshot%202026-10-06%20131458.png)
-## B2_fn_years_of_service.sql [screenshot](
+## B2_fn_years_of_service.sql [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/20223437d831f746d6ca60bad9feebf658197c43/Screenshot%202026-10-06%20132824.png).
