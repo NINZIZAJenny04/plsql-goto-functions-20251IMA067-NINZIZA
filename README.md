@@ -4,3 +4,5 @@
 ## A3_Illegal goto and fix [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/6c77c0e603b6f48660ff561050cecb5fa18b23e9/Screenshot%202026-10-06%20121222.png).
 ## A4_rewrite_no_goto [screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/d5472f3f70a0e54668feddb32ee9f3d048f4e7e2/Screenshot%202026-10-06%20130734.png).
 ## C1_fn_validate_payroll.sql[screenshot](https://github.com/NINZIZAJenny04/plsql-goto-functions-20251IMA067-NINZIZA/blob/3200b1085b8609d2c33b9a90fafdf97900620d07/Screenshot%202026-10-07%20214157.png])
+## B5_Select_output.png [screenshot](<img width="1122" height="697" alt="image" src="https://github.com/user-attachments/assets/19531588-59c7-4085-bd07-30e4604035ec" />
+
