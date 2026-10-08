@@ -1,17 +1,17 @@
 
 SQL> CREATE OR REPLACE FUNCTION fn_dept_name (
-  2   p_dept_id IN NUMBER) RETURN VARCHAR2 IS
-  3   v_dept_name departments.department_name%TYPE;
-  4  BEGIN
-  5   SELECT department_name
-  6  INTO v_dept_name
-  7  FROM departments
-  8  WHERE department_id = p_dept_id;
-  9   RETURN v_dept_name;
- 10  EXCEPTION
- 11  WHEN NO_DATA_FOUND THEN
- 12   RETURN 'Unknown Department';
- 13   WHEN OTHERS THEN
- 14   RETURN 'Error Retrieving Department';
- 15  END fn_dept_name;
- 16  /
+     p_dept_id IN NUMBER) RETURN VARCHAR2 IS
+     v_dept_name departments.department_name%TYPE;
+    BEGIN
+     SELECT department_name
+    INTO v_dept_name
+    FROM departments
+    WHERE department_id = p_dept_id;
+     RETURN v_dept_name;
+   EXCEPTION
+  WHEN NO_DATA_FOUND THEN
+    RETURN 'Unknown Department';
+    WHEN OTHERS THEN
+    RETURN 'Error Retrieving Department';
+   END fn_dept_name;
+   /
