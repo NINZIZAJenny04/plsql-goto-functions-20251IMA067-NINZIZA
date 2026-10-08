@@ -1,24 +1,24 @@
 SET SERVEROUTPUT ON;
 SQL> DECLARE
-  2   v_salary NUMBER := 55000;
-  3  BEGIN
-  4    IF v_salary < 30000 THEN
-  5  GOTO low_salary;
-  6   ELSIF v_salary BETWEEN 30000 AND 70000 THEN
-  7   GOTO medium_salary;
-  8  ELSE
-  9   GOTO high_salary;
- 10   END IF;
- 11  <<low_salary>>
- 12   DBMS_OUTPUT.PUT_LINE('Salary Category: Low Grade');
- 13  GOTO finish;
- 14    <<medium_salary>>
- 15  DBMS_OUTPUT.PUT_LINE('Salary Category: Medium Grade');
- 16  GOTO finish;
- 17  <<high_salary>>
- 18  DBMS_OUTPUT.PUT_LINE('Salary Category: High Grade');
- 19   GOTO finish;
- 20    <<finish>>
- 21  DBMS_OUTPUT.PUT_LINE('Salary review finished successfully.');
- 22  END;
- 23  /
+     v_salary NUMBER := 55000;
+    BEGIN
+      IF v_salary < 30000 THEN
+    GOTO low_salary;
+     ELSIF v_salary BETWEEN 30000 AND 70000 THEN
+     GOTO medium_salary;
+    ELSE
+     GOTO high_salary;
+    END IF;
+   <<low_salary>>
+    DBMS_OUTPUT.PUT_LINE('Salary Category: Low Grade');
+   GOTO finish;
+     <<medium_salary>>
+   DBMS_OUTPUT.PUT_LINE('Salary Category: Medium Grade');
+   GOTO finish;
+   <<high_salary>>
+   DBMS_OUTPUT.PUT_LINE('Salary Category: High Grade');
+    GOTO finish;
+     <<finish>>
+   DBMS_OUTPUT.PUT_LINE('Salary review finished successfully.');
+   END;
+   /
