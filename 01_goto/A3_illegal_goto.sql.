@@ -1,12 +1,12 @@
 
 SQL> SET SERVEROUTPUT ON;
 SQL> DECLARE
-  2   v_flag BOOLEAN := TRUE;
-  3  BEGIN
-  4    IF v_flag THEN
-  5   GOTO target_label;
-  6   END IF;
-  7   <<target_label>>
-  8   DBMS_OUTPUT.PUT_LINE('Valid jump target outside or properly nested block.');
-  9  END;
- 10  /
+     v_flag BOOLEAN := TRUE;
+    BEGIN
+      IF v_flag THEN
+     GOTO target_label;
+     END IF;
+     <<target_label>>
+     DBMS_OUTPUT.PUT_LINE('Valid jump target outside or properly nested block.');
+    END;
+   /
