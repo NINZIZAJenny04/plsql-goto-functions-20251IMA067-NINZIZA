@@ -1,16 +1,14 @@
 SQL> SET SERVEROUTPUT ON;
 SQL> DECLARE
-  2  num NUMBER := 15;
-  3  BEGIN
-  4  IF num > 0 THEN
-  5   DBMS_OUTPUT.PUT_LINE('The number ' || num || ' is POSITIVE.');
-  6   ELSIF num < 0 THEN
-  7   DBMS_OUTPUT.PUT_LINE('The number ' || num || ' is NEGATIVE.');
-  8   ELSE
-  9   DBMS_OUTPUT.PUT_LINE('The number is ZERO.');
- 10     END IF;
- 11  END;
- 12  /
-The number 15 is POSITIVE.
+    num NUMBER := 15;
+    BEGIN
+    IF num > 0 THEN
+     DBMS_OUTPUT.PUT_LINE('The number ' || num || ' is POSITIVE.');
+     ELSIF num < 0 THEN
+     DBMS_OUTPUT.PUT_LINE('The number ' || num || ' is NEGATIVE.');
+   ELSE
+     DBMS_OUTPUT.PUT_LINE('The number is ZERO.');
+      END IF;
+   END;
+   /
 
-PL/SQL procedure successfully completed.
